@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Get your greeting</title>
+    <title>Get your greetings here 2021</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-	<h1 th:text="Willkommen 2021">Greeting</h1>
+	<h1 th:text="Willkommen">Greeting</h1>
     <form action="#" th:action="@{/greeting}" th:object="${greeting}" method="post">
     	<p>Id: <input type="number" th:field="*{id}" /></p>
         <p>Message: <input type="text" th:field="${greeting.content}" /></p>
