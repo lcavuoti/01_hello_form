@@ -29,7 +29,8 @@ JDBC_DATABASE_URL=jdbc:postgresql://localhost:5432/java_database_name
 
 ```sh
 $ heroku create
-$ git push heroku main
+$ heroku git:remote -a obscure-ocean-42518
+$ git push heroku master
 $ heroku open
 ```
 
